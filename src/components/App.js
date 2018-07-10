@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from './Header';
-import '../css/styles.css';
+import styles from '../css/app.css';
 
 class App extends React.Component {
     render() {
         return (
-            <div className="myApp">
+            <div className={styles}>
                 <Header />
             </div>
         )

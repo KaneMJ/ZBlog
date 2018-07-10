@@ -1,0 +1,41 @@
+.image {
+    max-width: 100%;
+    filter: brightness(80%);
+}
+
+.zblog {
+    position: absolute;
+    bottom: 55%;
+    left: 24%;
+    height: 5vw;
+    max-height: 75px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-family: 'Verdana';
+}
+
+.visitZettler a {
+    background-color: rgb(252,95,30);
+    border-radius: 5px;
+}
+
+.headerDiv {
+    height: 20px;
+    position: absolute;
+    bottom: 45%;
+    left: 24%;
+}
