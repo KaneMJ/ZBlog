@@ -1,14 +1,30 @@
-.image {
+.wrapper {
     max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.headerWrapper {
+    width: 100%;
+    overflow: hidden;
+    height: 350px;
+}
+
+.image {
+    display: block;
+    width: 100%;
     filter: brightness(80%);
+    text-align: center;
+    object-fit: cover;
+    transform: translateY(-35%);
 }
 
 .zblog {
     position: absolute;
-    bottom: 55%;
+    top: 22%;
     left: 24%;
-    height: 5vw;
-    max-height: 75px;
+    max-height: 70px;
+    transform: translateX(-15%);
 }
 
 .nav {
@@ -36,6 +52,7 @@
 .headerDiv {
     height: 20px;
     position: absolute;
-    bottom: 45%;
+    top: 55%;
     left: 24%;
+    transform: translateX(-15%);
 }

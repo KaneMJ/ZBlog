@@ -4,8 +4,10 @@ import styles from '../css/header.css';
 class Header extends React.Component {
     render() {
         return (
-            <div>
-                <img className={styles.image} src='../images/headerPic.jpg' alt='Zettler' />
+            <div className={styles.wrapper}>
+                <div className={styles.headerWrapper}>
+                    <img className={styles.image} src='../images/headerPic.jpg' alt='Zettler' />
+                </div>
                 <img className={styles.zblog} src='../images/zBlogImage.png' alt="Zettler Blog" />
                 <div className={styles.headerDiv}>
                     <ul className={styles.nav}>
