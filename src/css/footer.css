@@ -14,12 +14,33 @@
     text-align: left;
 }
 
-.linkTags p {
+.linkTags {
     text-align: right;
 }
 
-.zettlerLinks a {
+.zettlerLinks a, .linkTags a {
     margin-right: 10px;
+}
+
+.zettlerLinks a {
+    text-decoration: none;
+}
+
+.zettlerLinks a:visited, .zettlerLinks a:link {
+    color: white;
+}
+
+.linkTags a:link, .linkTags a:visited {
+    color: #66656f;
+}
+.linkTags i:hover{
+    transform: scale(1.5);
+    color: black;
+}
+
+.zettlerLinks a:hover {
+    color: #66656f;
+    font-weight: bold;
 }
 
 p {

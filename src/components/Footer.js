@@ -10,12 +10,13 @@ class Footer extends React.Component {
                         <p>© Copyright 2018 - American Zettler, Inc - All Rights Reserved</p>
                     </div>
                     <div className={styles.linkTags}>
-                        <p>Links</p>
+                        <a href="https://www.linkedin.com/company/zettler-group" target="_blank"><i className="fab fa-linkedin-in"></i></a>
+                        <a href="https://vimeo.com/zettler" target="_blank"><i className="fab fa-vimeo-v"></i></a>
                     </div>
                     <div className={styles.zettlerLinks}>
-                        <a>HOME</a>
-                        <a>BLOG</a>
-                        <a>VISIT ZETTLER</a>
+                        <a href="#"><span>HOME</span></a>
+                        <a href="#">BLOG</a>
+                        <a href="#">VISIT ZETTLER</a>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,10 @@
+.wrapper {
+    height: 400px;
+}
+
+.innerContent {
+    max-width: 1120px;
+    margin: 0 auto;
+    background-color: red;
+    height: 400px;
+}
