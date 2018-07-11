@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import styles from '../css/app.css';
 
 class App extends React.Component {
@@ -7,6 +8,7 @@ class App extends React.Component {
         return (
             <div className={styles}>
                 <Header />
+                <Footer />
             </div>
         )
     }

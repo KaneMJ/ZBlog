@@ -1,0 +1,27 @@
+.wrapper {
+    background-color: rgb(245, 130, 47);
+    height: 125px;
+}
+
+.innerContent {
+    max-width: 1120px;
+    margin: 0 auto;
+    color: white;
+    padding: 35px 20px;
+}
+
+.copyright p {
+    text-align: left;
+}
+
+.linkTags p {
+    text-align: right;
+}
+
+.zettlerLinks a {
+    margin-right: 10px;
+}
+
+p {
+    margin: 0;
+}
