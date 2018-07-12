@@ -13,11 +13,14 @@ class AboutZettler extends React.Component {
                             We've decided to make a blog to let you in on all the hardware knowledge.</p>
                             <p>If you're in the market for electrical components, be sure to visit us today!</p>
                             <div>
-                                <button type="button">Visit American Zettler<i className="fas fa-angle-right"></i></button>
+                                <button type="button"><a href="https://www.zettler-group.com" target="_blank">Visit Zettler Group <i className="fas fa-angle-right"></i></a></button>
                             </div>
                         </div>
                     </div>
                     <div className={styles.zLogoDiv}>
+                        <div className={styles.zLogo}>
+                            <img src='../images/zLogo.png' />
+                        </div>
                     </div>
                 </div>
             </div>
