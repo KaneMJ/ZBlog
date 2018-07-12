@@ -1,0 +1,12 @@
+.wrapper {
+    background-color: rgb(236, 236, 236);
+    height: 500px;
+}
+
+.blogTopicWrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+    background-color: pink;
+    height: 430px;
+    padding: 35px 20px;
+}
