@@ -5,6 +5,58 @@
 .innerContent {
     max-width: 1120px;
     margin: 0 auto;
-    background-color: red;
     height: 400px;
 }
+
+.aboutZettlerContainer {
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+.aboutZettler {
+    margin: 0 auto;
+    width: 80%;
+    height: 350px;
+    background-color: rgb(28,109,235);
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Source Sans Pro';
+}
+
+.aboutZettler h2 {
+    padding-top: 30px;
+    font-weight: 300;
+    font-size: 32px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aboutZettler p {
+    padding: 10px 25px;
+}
+
+.aboutZettler div {
+    text-align: center;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.aboutZettler div button {
+    padding: 10px 20px;
+    background-color: white;
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+.zLogoDiv {
+    float: right;
+    background-color: pink;
+    height: 100%;
+    width: 50%;
+}
+
+
+/* Breakpoint for < 860px width needs to be made. Image tears at this point */
+/* Either one media query for all cell phones and this size or cell phone size and tweener size */
