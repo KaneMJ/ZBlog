@@ -49,6 +49,18 @@
     color: white;
 }
 
-.description h3{
+.description h3 {
     margin: 0;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-family: 'Source Sans Pro';
+    font-weight: lighter;
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
 }
