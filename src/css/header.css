@@ -47,16 +47,27 @@
     display: inline;
 }
 
-.nav li a {
+.nav a {
     color: white;
     text-decoration: none;
     padding: 12px 20px;
     font-family: 'Verdana';
 }
 
+.nav a:hover {
+    color: rgb(218,118,47);
+    font-weight: bolder;
+}
+
 .visitZettler a {
-    background-color: rgb(252,95,30);
+    background-color: rgb(218, 118, 47);
+    color: white;
     border-radius: 5px;
+}
+
+.visitZettler a:hover {
+    background-color: rgb(204, 102, 29);
+    color: white;
 }
 
 .headerDiv {
