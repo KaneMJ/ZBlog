@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import FeaturedBlog from './FeaturedBlog'
 import BlogTopic from './BlogTopic';
 import AboutZettler from './AboutZettler';
 import Footer from './Footer';
@@ -10,6 +11,7 @@ class App extends React.Component {
         return (
             <div className={styles.container}>
                 <Header />
+                <FeaturedBlog />
                 <BlogTopic />
                 <AboutZettler />
                 <Footer />

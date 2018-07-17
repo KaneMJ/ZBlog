@@ -10,6 +10,7 @@ class BlogTopic extends React.Component {
                     <div className={styles.cardWrapper}>
                         <div className={styles.transformerCard}>
                             <div className={styles.imgDiv}>
+                                <img src='../images/touchovenweb.jpg' alt='Zettler Transformers' />
                             </div>
                             <div className={styles.description}>
                                 <h3>Transformers</h3>
@@ -18,6 +19,7 @@ class BlogTopic extends React.Component {
                         </div>
                         <div className={styles.displayCard}>
                             <div className={styles.imgDiv}>
+                                <img src='../images/displaysweb.jpg' alt='AZ Displays' />
                             </div>
                             <div className={styles.description}>
                                 <h3>Displays</h3>
@@ -26,6 +28,7 @@ class BlogTopic extends React.Component {
                         </div>
                         <div className={styles.relayCard}>
                             <div className={styles.imgDiv}>
+                                <img src='../images/pluginsolarweb.jpg' alt='Zettler Solar' />
                             </div>
                             <div className={styles.description}>
                                 <h3>Power Relays</h3>
