@@ -24,7 +24,6 @@
 
 .transformerCard, .displayCard, .relayCard {
     height: 385px;
-    background-color: red;
     width: 32%;
     display: inline-block;
 }
@@ -73,11 +72,45 @@
 
 @media only screen and (max-width: 880px) {   
     .transformerCard, .displayCard, .relayCard {
+        margin-top: 10px;
+        height: 125px;
+        width: 100%;
         display: block;
+    }
+
+    .relayCard {
+        margin-bottom: 10px;
     }
 
     .title {
         text-align: center;
         font-size: 50px;
+    }
+
+    .imgDiv {
+        display: inline-block;
+        width: 25%;
+        height: 100%;
+    }
+
+    .description {
+        display: inline-block;
+        width: 75%;
+        height: auto;
+        vertical-align: top;
+        height: 100%;
+    }
+    
+    .blogTopicWrapper {
+        padding: 0;
+    }
+
+    .description h3{
+        font-size: 40px;
+    }
+
+    .description p {
+        float: none;
+        text-align: center;
     }
 }

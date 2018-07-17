@@ -101,4 +101,8 @@
     .helper img {
         margin: 15% 5%;
     }
+
+    .blogContent h1 {
+        font-size: 26px;
+    }
 }
