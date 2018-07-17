@@ -77,3 +77,21 @@
     left: 24%;
     transform: translateX(-15%);
 }
+
+@media only screen and (max-width: 880px) {
+    .wrapper {
+        max-width: 880px;
+    }
+
+    .image {
+        height: 600px;
+    }
+
+    .zblog{
+        height: 40px;
+    }
+
+    .nav a {
+        padding: 12px 10px;
+    }
+}

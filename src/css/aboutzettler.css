@@ -92,3 +92,7 @@
 
 /* Breakpoint for < 860px width needs to be made. Image tears at this point */
 /* Either one media query for all cell phones and this size or cell phone size and tweener size */
+
+@media only screen and (max-width: 880px) {
+
+}

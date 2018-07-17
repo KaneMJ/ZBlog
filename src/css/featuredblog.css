@@ -23,12 +23,14 @@
 
 .helper {
     display: inline-block;
-    height: 100%;
+    height: 300px;
     vertical-align: middle;
 }
 
 .helper img {
-    vertical-align: middle;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    height: 70%;
     max-height: 100%;
     max-width: 100%;
 }
@@ -50,7 +52,7 @@
     font-family: 'Source Sans Pro';
     margin-top: 5px;
     margin-bottom: 0;
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .blogContent p{
@@ -76,4 +78,27 @@
 .blogContent button:hover {
     outline-offset: 3px;
     transform: scale(1.1);
+}
+
+@media only screen and (max-width: 880px) {   
+    .blogContent {
+        float: none;
+    }
+
+    .blogContent, .blogImage {
+        width: auto;
+    }
+
+    .blogImage {
+        float: right;
+        height: 150px;
+    }
+    
+    .helper {
+        height: 150px;
+    }
+    
+    .helper img {
+        margin: 15% 5%;
+    }
 }
